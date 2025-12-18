@@ -11,7 +11,7 @@ public class Main {
         box = box / 4;
         System.out.println(box);
 
-        var a = 6;
+        var a = 12;
         var b = 3;
         var result = a + b;
         System.out.println("a + b = " + result);
