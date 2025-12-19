@@ -37,6 +37,19 @@ public class Main {
         frog = frog + 4;
         System.out.println("переменная frog = " + frog);
 
-        var 
+        var fighter1 = 78.2;
+        var fighter2 = 82.7;
+        var common = fighter1 + fighter2;
+        System.out.println("Общий вес боксеров = " + common);
+        var difference = fighter2 % fighter1;
+        System.out.println("Разница между боксерами = " + difference + " кг");
+
+        var time = 640;
+        var time_work = 8;
+        var workers = time / time_work;
+        System.out.println("Всего работников в компании - " + workers + " человек");
+        var too_much_workers = 94;
+        var new_time_work = time / too_much_workers;
+        System.out.println("Если в компании работает 94 человек, то всего " + new_time_work + " часов работы может быть поделено каждому сотрудникаму");
     }
 }
