@@ -9,6 +9,10 @@ public class Main {
         System.out.println("Большое целое значение " + big);
         long very_big = 2147484000L;
         System.out.println("Самое большое целое значение " + very_big);
+        float smol_difference = 21.134875614f;
+        System.out.println("Малое не целое " + smol_difference);
+        double big_difference = 21.124234234234;
+        System.out.println("Большое не целое " + big_difference);
 
         System.out.println("Задание №2");
         float one = 27.12f;
@@ -55,14 +59,14 @@ public class Main {
         int month_not_very_short = day * 29;
         int month_short = day * 30;
         int month_long = day * 31;
-        int bottle_month1 = bottle * month_very_short;
-        System.out.println("За февраль = "+month_very_short+" минут, машина произвела "+bottle_month1+" штук бутылок");
-        int bottle_month2 = bottle * month_not_very_short;
-        System.out.println("За весакосный февраль = "+month_not_very_short+" минут, машина произвела "+bottle_month2+" штук бутылок");
-        int bottle_month3 = bottle * month_short;
-        System.out.println("За месяц (30 дней) = "+month_short+" минут, машина произвела "+bottle_month3+" штук бутылок");
-        int bottle_month4 = bottle * month_long;
-        System.out.println("За месяц (31 день) = "+month_long+" минут, машина произвела "+bottle_month4+" штук бутылок");
+        int bottle_month_1 = bottle * month_very_short;
+        System.out.println("За февраль = "+month_very_short+" минут, машина произвела "+bottle_month_1+" штук бутылок");
+        int bottle_month_2 = bottle * month_not_very_short;
+        System.out.println("За весакосный февраль = "+month_not_very_short+" минут, машина произвела "+bottle_month_2+" штук бутылок");
+        int bottle_month_3 = bottle * month_short;
+        System.out.println("За месяц (30 дней) = "+month_short+" минут, машина произвела "+bottle_month_3+" штук бутылок");
+        int bottle_month_4 = bottle * month_long;
+        System.out.println("За месяц (31 день) = "+month_long+" минут, машина произвела "+bottle_month_4+" штук бутылок");
 
         System.out.println("Задание №5");
         byte cans_of_paint = 120;
