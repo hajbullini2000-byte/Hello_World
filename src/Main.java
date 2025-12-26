@@ -1,5 +1,125 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        System.out.println("Задание №1");
+        byte small = 126;
+        System.out.println("Самое маленькое целое значение " + small);
+        short normal = 130;
+        System.out.println("Среднее целое значение " + normal);
+        int big = 33000;
+        System.out.println("Большое целое значение " + big);
+        long very_big = 2147484000L;
+        System.out.println("Самое большое целое значение " + very_big);
+
+        System.out.println("Задание №2");
+        float one = 27.12f;
+        System.out.println("Первое число по заданию " + one);
+        long two = 987678965549L;
+        System.out.println("Второе число по заданию " + two);
+        double three = 2.786;
+        System.out.println("Третье число по заданию " + three);
+        short four = 569;
+        System.out.println("Четвертое число по заданию " + four);
+        short five = -159;
+        System.out.println("Пятое число по заданию " + five);
+        int six = 27897;
+        System.out.println("Шестое число по заданию " + six);
+        byte sewen = 67;
+        System.out.println("Седьмое число по заданию " + sewen);
+
+        System.out.println("Задание №3");
+        byte Lyudmila = 23;
+        byte Anna =27;
+        byte Ekaterina = 30;
+        short paper = 480;
+        int students = Lyudmila + Anna + Ekaterina;
+        int students_paper = paper/students;
+        System.out.println("Общее количество учеников " + students);
+        System.out.println("Бумаги для каждого ученика " + students_paper);
+
+        System.out.println("Задание №4");
+        byte irrational_counting_bottle = 16;
+        byte irrational_counting_time = 2;
+        int bottle = irrational_counting_bottle/irrational_counting_time;
+        System.out.println("Производительность машины за 1 минуту " + bottle);
+        byte twenty_minutes = 20;
+        int bottle_twenty_minutes = bottle * twenty_minutes;
+        System.out.println("За " + twenty_minutes + " минут машина произвела " + bottle_twenty_minutes + " штук бутылок");
+        int hour = twenty_minutes * 3;
+        int day = hour * 24;
+        int bottle_day = bottle * day;
+        System.out.println("За сутки = " + day + " минут, машина произвела " + bottle_day + " штук бутылок");
+        int three_day = day * 3;
+        int bottle_three_day = bottle * three_day;
+        System.out.println("За трое суток = "+three_day+" минут, машина произвела "+bottle_three_day+" штук бутылок");
+        int month_very_short = day * 28;
+        int month_not_very_short = day * 29;
+        int month_short = day * 30;
+        int month_long = day * 31;
+        int bottle_month1 = bottle * month_very_short;
+        System.out.println("За февраль = "+month_very_short+" минут, машина произвела "+bottle_month1+" штук бутылок");
+        int bottle_month2 = bottle * month_not_very_short;
+        System.out.println("За весакосный февраль = "+month_not_very_short+" минут, машина произвела "+bottle_month2+" штук бутылок");
+        int bottle_month3 = bottle * month_short;
+        System.out.println("За месяц (30 дней) = "+month_short+" минут, машина произвела "+bottle_month3+" штук бутылок");
+        int bottle_month4 = bottle * month_long;
+        System.out.println("За месяц (31 день) = "+month_long+" минут, машина произвела "+bottle_month4+" штук бутылок");
+
+        System.out.println("Задание №5");
+        byte cans_of_paint = 120;
+        byte white_cans_for_klass = 2;
+        byte brown_cans_for_klass = 4;
+        int cans_for_klass = white_cans_for_klass + brown_cans_for_klass;
+        System.out.println("Для класса надо "+cans_for_klass+" банок краски");
+        int klass = cans_of_paint/cans_for_klass;
+        System.out.println("Всего классов в школе "+klass);
+        int klass_white = klass * white_cans_for_klass;
+        int klass_brown = klass * brown_cans_for_klass;
+        System.out.println("В школе где "+klass+" классов, нужно "+klass_white+" банок белой краски и "+klass_brown+" банок коричневой краски");
+
+        System.out.println("Задание №6");
+        byte one_banana = 80;
+        byte milk_100_gram = 105;
+        byte one_sundae = 100;
+        byte one_egg = 70;
+        int banana = one_banana * 5;
+        int milk = milk_100_gram * 2;
+        int sundae = one_sundae * 2;
+        int egg = one_egg * 4;
+        int cocktail = banana + milk + sundae + egg;
+        System.out.println("Коктейль весит "+cocktail+ "грам");
+        float kilogram = cocktail/1000F;
+        System.out.println("Коктейль в килограммах весит "+kilogram+" кг");
+
+        System.out.println("Задание №7");
+        byte rules = 7;
+        short Long = 250;
+        short faster = 500;
+        int rules_gram = rules*1000;
+        int more = rules_gram/Long;
+        System.out.println("Если сбрасывает по 250 грам в день то понадобится "+more+" дней");
+        int less = rules_gram/faster;
+        System.out.println("Если сбрасывает по 500 грам в день то понадобится "+less+" дней");
+        int average = (more+less)/2;
+        System.out.println("Если питается по разному "+average+" день");
+
+        System.out.println("Задание №8");
+        int Masha = 67760;
+        int Denis = 83690;
+        int Kristina = 76230;
+        float masha_new = Masha+(Masha * 0.1f);
+        int masha_old_year = Masha * 12;
+        float masha_new_year = masha_new * 12;
+        float masha_difference = masha_new_year - masha_old_year;
+        System.out.println("Маша теперь получает "+masha_new+" рублей. Годовой доход вырос на "+masha_difference);
+        float Denis_new = Denis+(Denis * 0.1f);
+        int Denis_old_year = Denis * 12;
+        float Denis_new_year = Denis_new * 12;
+        float Denis_difference = Denis_new_year - Denis_old_year;
+        System.out.println("Денис теперь получает "+Denis_new+" рублей. Годовой доход вырос на "+Denis_difference);
+        float Kristina_new = Kristina+(Kristina * 0.1f);
+        int Kristina_old_year = Kristina * 12;
+        float Kristina_new_year = Kristina_new * 12;
+        float Kristina_difference = Kristina_new_year - Kristina_old_year;
+        System.out.println("Кристина теперь получает "+Kristina_new+" рублей. Годовой доход вырос на "+Kristina_difference);
     }
 }
