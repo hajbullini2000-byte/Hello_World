@@ -35,7 +35,7 @@ public class Main {
         if (age >= 18  && age <= 24) {
             System.out.println("Если возраст человека равен "+age+" то ему нужно ходить в колледж");
         }
-        if (age >= 24) {
+        if (age > 24) {
             System.out.println("Если возраст человека равен "+age+" то ему нужно ходить на работу");
         }
 
