@@ -10,12 +10,12 @@ public class Main {
 
         System.out.println("Задание №2");
         int os = 1;
-        int ears = 2017;
-        if (os == 0 && ears < 2015){
+        int clientDeviceYear = 2017;
+        if (os == 0 && clientDeviceYear < 2015){
             System.out.println("Установите облегченную версия для iOS по ссылке");
-        }else if (os == 0 && ears > 2015){
+        }else if (os == 0 && clientDeviceYear > 2015){
             System.out.println("Установите версия для iOS по ссылке");
-        }else if (os == 1 && ears < 2015){
+        }else if (os == 1 && clientDeviceYear < 2015){
             System.out.println("Установите облегченную версия для Android по ссылке");
         }else {
             System.out.println("Установите версия для Android по ссылке");
@@ -42,7 +42,7 @@ public class Main {
         }
 
         System.out.println("Задание №5");
-        int monthNumber = 12;
+        int monthNumber = 13;
         switch (monthNumber){
             case 12:
             case 1:
@@ -65,7 +65,6 @@ public class Main {
                 System.out.println("Осень");
                 break;
             default:
-                System.out.println("Неправилный номер месяца!");
         }
     }
 }
