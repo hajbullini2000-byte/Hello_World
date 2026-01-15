@@ -9,15 +9,16 @@ public class Main {
         System.out.println("Задание №2");
         int marathon = 42195;
         int start = 0;
-        //for (; start <= 42500; start = start + 500){
-        //    System.out.println(start);
-        //    int result = marathon - start;
-        //    System.out.println("Держитесь! Осталось "+result+" метров");
-        //}
-        //System.out.println("Марафон завершён!");
+        int result;
+        for (; start <= 42195; start = start + 500){
+            System.out.println(start);
+            result = marathon - start;
+            System.out.println("Держитесь! Осталось "+result+" метров");
+        }
+        System.out.println("Марафон завершён!");
         do {
             start = start + 500;
-            int result = marathon - start;
+            result = marathon - start;
             System.out.println("Держитесь! Осталось "+result+" метров");
             System.out.println("пройдено"+start);
         } while (start < 42195);
@@ -26,17 +27,17 @@ public class Main {
         System.out.println("Задание №3");
         int budget = 700;
         int day = 1;
-        //for (; budget >= 0; budget = budget-100){
-        //    day++;
-        //    if (day % 5 == 0){
-        //        System.out.println("Сегодня парковка бесплатная");
-        //        continue;
-        //    }
-        //    System.out.println("Осталось бюджета "+budget);
-        //}
-        //if (budget==0){
-        //    System.out.println("Плоти нологи");
-        //}
+        for (; budget >= 0; budget = budget-100){
+            day++;
+            if (day % 5 == 0){
+                System.out.println("Сегодня парковка бесплатная");
+                continue;
+            }
+            System.out.println("Осталось бюджета "+budget);
+        }
+        if (budget==0){
+            System.out.println("Плоти нологи");
+        }
         while (budget>=0){
             System.out.println("Осталось бюджета "+budget);
             budget = budget-100;
