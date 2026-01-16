@@ -11,7 +11,6 @@ public class Main {
         int start = 0;
         int result;
         for (; start <= 42195; start = start + 500){
-            System.out.println(start);
             result = marathon - start;
             System.out.println("Держитесь! Осталось "+result+" метров");
         }
@@ -20,7 +19,6 @@ public class Main {
             start = start + 500;
             result = marathon - start;
             System.out.println("Держитесь! Осталось "+result+" метров");
-            System.out.println("пройдено"+start);
         } while (start < 42195);
         System.out.println("Марафон завершён!");
 
@@ -30,19 +28,21 @@ public class Main {
         for (; budget >= 0; budget = budget-100){
             day++;
             if (day % 5 == 0){
+                budget = budget + 100;
                 System.out.println("Сегодня парковка бесплатная");
                 continue;
             }
-            System.out.println("Осталось бюджета "+budget);
+            System.out.println("Осталось бюджета "+budget+" парковка "+day+" дней");
         }
         if (budget==0){
             System.out.println("Плоти нологи");
         }
         while (budget>=0){
-            System.out.println("Осталось бюджета "+budget);
+            System.out.println("Осталось бюджета "+budget+" парковка "+day+" дней");
             budget = budget-100;
             day++;
             if (day %5 ==0){
+                budget = budget + 100;
                 System.out.println("Сегодня парковка бесплатно");
                 continue;
             }
@@ -56,8 +56,8 @@ public class Main {
         while (total < 12000000){
             total = total + 15000;
             month++;
-            if (month%6==0){
-                total=total+total/142;
+            if (month % 6 == 0){
+                total = total + total / 142;
             }
             if(total == 12000000){
                 System.out.println("Ты набрал нужную сумму");
