@@ -52,18 +52,18 @@ public class Main {
         }
         System.out.println("Задание №4");
         int month = 0;
-        int total = 0;
+        double total = 0;
         while (total < 12000000){
             total = total + 15000;
             month++;
             if (month % 6 == 0){
-                total = total + total / 142;
+                total = total + total * 0.07;
             }
+            System.out.println(String.format("%.2f",total)+" за "+month);
             if(total == 12000000){
                 System.out.println("Ты набрал нужную сумму");
                 break;
             }
-            System.out.println(total+" за "+month);
         }
 
         System.out.println("Задание №5");
