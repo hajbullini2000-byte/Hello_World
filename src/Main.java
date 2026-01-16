@@ -38,16 +38,10 @@ public class Main {
             System.out.println("Плоти нологи");
         }
         while (budget>=0){
-            System.out.println("Осталось бюджета "+budget+" парковка "+day+" дней");
             budget = budget-100;
             day++;
             if (day %5 ==0){
-                budget = budget + 100;
-                System.out.println("Сегодня парковка бесплатно");
                 continue;
-            }
-            if (budget==0){
-                System.out.println("Плоти нологи");
             }
         }
         System.out.println("Задание №4");
