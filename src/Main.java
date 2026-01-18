@@ -28,12 +28,11 @@ public class Main {
         for (; budget >= 0; budget = budget-100){
             day++;
             if (day % 5 == 0){
-                budget = budget + 100;
-                System.out.println("Сегодня парковка бесплатная");
                 continue;
             }
-            System.out.println("Осталось бюджета "+budget+" парковка "+day+" дней");
+            System.out.println("Осталось бюджета "+budget+" дней парковки");
         }
+
         if (budget==0){
             System.out.println("Плоти нологи");
         }
