@@ -37,7 +37,7 @@ public class Main {
         for (int a = length - 4; a >= 0; a--) {
             System.out.print(arrayTwo[a]+", ");
         }
-        System.out.println();
+        System.out.println("  ");
 
         for (double ignored : arrayThree) {
             length++;}
