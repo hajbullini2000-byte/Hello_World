@@ -21,7 +21,7 @@ public class Main {
         System.out.println("Задание 2");
         System.out.println(Arrays.toString(arrayOne)+" ");
         System.out.println(Arrays.toString(arrayTwo)+" ");
-        System.out.println(Arrays.toString(arrayThree)+" ");
+        System.out.println(Arrays.toString(arrayThree)+"  ");
 
         System.out.println("=============================");
         System.out.println("Задание 3");
