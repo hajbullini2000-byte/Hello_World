@@ -10,7 +10,7 @@ public class Main {
         }
         double[] arrayTwo = {1.57, 7.654, 9.986};
         for (double index : arrayTwo) {
-            System.out.println(index);
+            System.out.println(index+arrayTwo.length);
         }
         double[] arrayThree = new double[5];
         for (int index = 0; index < arrayThree.length; index++) {
@@ -19,7 +19,9 @@ public class Main {
         }
         System.out.println("=============================");
         System.out.println("Задание 2");
-        System.out.println(Arrays.toString(arrayOne)+" "+Arrays.toString(arrayTwo)+" "+Arrays.toString(arrayThree));
+        System.out.println(Arrays.toString(arrayOne)+" ");
+        System.out.println(Arrays.toString(arrayTwo)+" ");
+        System.out.println(Arrays.toString(arrayThree)+" ");
 
         System.out.println("=============================");
         System.out.println("Задание 3");
@@ -28,12 +30,14 @@ public class Main {
             length++;}
         for (int i = length - 1; i >= 0; i--) {
             System.out.print(arrayOne[i]+", ");}
+        System.out.println();
 
         for (double ignored : arrayTwo) {
             length++;}
         for (int a = length - 4; a >= 0; a--) {
             System.out.print(arrayTwo[a]+", ");
         }
+        System.out.println();
 
         for (double ignored : arrayThree) {
             length++;}
