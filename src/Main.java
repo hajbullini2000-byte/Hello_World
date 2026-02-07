@@ -25,26 +25,32 @@ public class Main {
 
         System.out.println("=============================");
         System.out.println("Задание 3");
-        int length = 0;
-        for (int ignored : arrayOne) {
-            length++;}
-        for (int i = length - 1; i >= 0; i--) {
-            System.out.print(arrayOne[i]+", ");}
+        //int length = 0;
+        //for (int ignored : arrayOne) {
+        //    length++;}
+        //for (int i = length - 1; i >= 0; i--) {
+        //    System.out.print(arrayOne[i]+", ");}
+        //System.out.println();
+        System.out.print(arrayOne[2]+", "+arrayOne[1]+", "+arrayOne[0]);
+        System.out.println();
+        System.out.print(arrayTwo[2]+", "+arrayTwo[1]+", "+arrayTwo[0]);
+        System.out.println();
+        System.out.print(arrayThree[4]+", "+arrayThree[3]+", "+arrayThree[2]+", "+arrayThree[1]+", "+arrayThree[0]);
         System.out.println();
 
-        for (double ignored : arrayTwo) {
-            length++;}
-        for (int a = length - 4; a >= 0; a--) {
-            System.out.print(arrayTwo[a]+", ");
-        }
-        System.out.println("  ");
+        //for (double ignored : arrayTwo) {
+        //    length++;}
+        //for (int a = length - 4; a >= 0; a--) {
+        //    System.out.print(arrayTwo[a]+", ");
+        //}
+        //System.out.println("  ");
 
-        for (double ignored : arrayThree) {
-            length++;}
-        for (int i = length - 7; i >= 0; i--) {
-            System.out.print(arrayThree[i]+", ");
-        }
-        System.out.println();
+        //for (double ignored : arrayThree) {
+        //    length++;}
+        //for (int i = length - 7; i >= 0; i--) {
+        //    System.out.print(arrayThree[i]+", ");
+        //}
+        //System.out.println();
 
         System.out.println("=============================");
         System.out.println("Задание 4");
@@ -57,21 +63,5 @@ public class Main {
             }
         }
         System.out.println();
-        //if (theOddElement){
-        //    for (double i = 0; i < arrayTwo.length; i++){
-        //        if (arrayTwo[i] % 2 != 0){
-        //            arrayTwo[i]++;
-        //        }System.out.print(arrayTwo[i]+", ");
-        //    }
-        //}
-        //System.out.println();
-        //if (theOddElement){
-        //    for (double i = 0; i < arrayThree.length; i++){
-        //        if (arrayThree[i] % 2 != 0){
-        //            arrayThree[i]++;
-        //        }System.out.print(arrayThree[i]+", ");
-        //    }
-        //}
-        //System.out.println();
     }
 }
