@@ -42,7 +42,7 @@ public class Main {
             if (a > 0) {
                 System.out.print(", ");}
         }
-        System.out.println("  ");
+        System.out.println("   ");
 
         for (double ignored : arrayThree) {
             length++;}
@@ -53,7 +53,7 @@ public class Main {
         }
         System.out.println();
 
-        System.out.println("============================");
+        System.out.println("===========================");
         System.out.println("Задание 4");
         boolean theOddElement = true;
         for (int i = 0; i < arrayOne.length; i++){
